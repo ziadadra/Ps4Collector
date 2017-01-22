@@ -15,6 +15,7 @@
 		9910D7DB1E34A8560096C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9910D7D91E34A8560096C30D /* LaunchScreen.storyboard */; };
 		9910D7E31E34BA990096C30D /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9910D7E21E34BA990096C30D /* logo.gif */; };
 		9910D7E51E34C2110096C30D /* Ps4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9910D7E41E34C2110096C30D /* Ps4ViewController.swift */; };
+		99FCCCA31E350D500021DEA5 /* appsps4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99FCCCA21E350D500021DEA5 /* appsps4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9910D7DC1E34A8560096C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9910D7E21E34BA990096C30D /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
 		9910D7E41E34C2110096C30D /* Ps4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ps4ViewController.swift; path = ../Ps4ViewController.swift; sourceTree = "<group>"; };
+		99FCCCA21E350D500021DEA5 /* appsps4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appsps4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9910D7E41E34C2110096C30D /* Ps4ViewController.swift */,
 				9910D7D11E34A8560096C30D /* Main.storyboard */,
 				9910D7D71E34A8560096C30D /* Assets.xcassets */,
+				99FCCCA21E350D500021DEA5 /* appsps4.jpg */,
 				9910D7D91E34A8560096C30D /* LaunchScreen.storyboard */,
 				9910D7DC1E34A8560096C30D /* Info.plist */,
 				9910D7D41E34A8560096C30D /* Ps4Collector.xcdatamodeld */,
@@ -105,6 +108,7 @@
 				TargetAttributes = {
 					9910D7C91E34A8560096C30D = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = J4Q427424J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9910D7DB1E34A8560096C30D /* LaunchScreen.storyboard in Resources */,
+				99FCCCA31E350D500021DEA5 /* appsps4.jpg in Resources */,
 				9910D7E31E34BA990096C30D /* logo.gif in Resources */,
 				9910D7D81E34A8560096C30D /* Assets.xcassets in Resources */,
 				9910D7D31E34A8560096C30D /* Main.storyboard in Resources */,
@@ -272,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4Q427424J;
 				INFOPLIST_FILE = Ps4Collector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adratech.Ps4Collector;
@@ -284,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4Q427424J;
 				INFOPLIST_FILE = Ps4Collector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adratech.Ps4Collector;
@@ -311,6 +318,7 @@
 				9910D7E11E34A8560096C30D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

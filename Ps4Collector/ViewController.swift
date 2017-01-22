@@ -50,5 +50,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return cell
         
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let game = games[indexPath.row]
+        performSegue(withIdentifier: "gameSegue", sender: game)
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! Ps4ViewController
+    nextVC.game = sender as? Game
+        
+    }
 }
 
